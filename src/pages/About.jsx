@@ -3,9 +3,18 @@ import '../App.css';
 import '../assets/simplified-grid.css';
 
 export default function Home() {
-    return (
-        <>
-        <div className='container'>
+  return (
+    <>
+      <nav>
+        <div className='container h-centre'>
+          <div className='col-12'>
+            <Link to={'/'} className='back'>Home</Link>
+          </div>
+        </div>
+      </nav>
+      <br/>
+      <br/>
+      <div className='container'>
         <div className='row'>
           <div className='col-12 '>
             <h1 className='logo'>ABOUT</h1>
@@ -18,13 +27,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <footer>
-        <div className='container h-centre'>
-          <div className='col-12'>
-          <Link to={'/'} className='back'>Home</Link>
-          </div>
-        </div>
-      </footer>
-      </>
-    );
+
+    </>
+  );
 }

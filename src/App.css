@@ -46,9 +46,9 @@ a.back::before {
   content: '\2190\00A0';
 }
 
-footer{
+nav {
   position: fixed;
-  bottom: 0;
+  top: 0;
   width: 100%;
   height: 5rem;
   background-color: #CD1C68;
@@ -77,4 +77,13 @@ footer{
 .fade-exit-active {
   opacity: 0;
   transition: opacity 200ms;
+}
+
+.highlighted_link {
+  color: #CD1C68;
+}
+
+hr {
+  color: #807f80;
+  opacity: 0.5;
 }
